@@ -155,6 +155,7 @@ def main():
     
     # Calculate As
     # Calculate As1
+    # My comment
     As = calculate_reinforcement_area(M, b, d, fck, fy)
     if As is not None:
         print(f"Required reinforcement area As = {As:.2f} mm²")
